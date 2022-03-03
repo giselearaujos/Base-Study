@@ -1,6 +1,6 @@
 <h1 align="center"> 🎯 Estudando a Base</h1>
 
-<p>Este repositório é um caderno de anotações sobre meus estudos de HTML, CSS e Javascript.</p>
+<p align="center">Este repositório é um caderno de anotações sobre meus estudos de HTML, CSS e Javascript.</p>
 
 <h2>🎯 Contato:</h2>
 
