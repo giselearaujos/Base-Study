@@ -12,6 +12,6 @@ console.log(name); // Giza
 name = "Lana"; // Reatribuição
 console.log(name); // Lana
 
-// Não podemos redeclarar variáveis com let
+// Não podemos redeclarar variáveis com let ou const
 // let name = "Olíva";
 // SyntaxError: Identifier 'name' has already been declared
