@@ -23,6 +23,10 @@ const myName = "bob";
 
 //Symbol (novo em ECMAScript 6). Um tipo de dado cuja as instâncias são únicas e imutáveis (pouco utilizado ainda).
 
-/*Object - (Objeto) - é um tipo mais dinâmico, que ao desenvolvedor criar atributos e métodos, além de já possuir um conjunto de métodos pré-definidos. Geralmente, cria-se objetos para agrupar valores em uma única referência. */
+/*Object - (Objeto) - é um tipo mais dinâmico,
+ que ao desenvolvedor criar atributos e métodos,
+ além de já possuir um conjunto de métodos pré-definidos.
+ Geralmente, cria-se objetos para agrupar valores em uma única referência.
+*/
 
 const myAddress = { city: "Campinas", state: "SP" };
