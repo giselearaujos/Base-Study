@@ -6,4 +6,4 @@
 // const color; Errado
 
 const color = "black";
-console.log(color);
+console.log(color); // black
