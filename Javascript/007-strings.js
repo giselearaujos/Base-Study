@@ -13,17 +13,28 @@ let string03 = "Spider";
 let string04 = "Man";
 console.log(string03.concat(" ", string04));
 
+// indexOf
+let text = "Hello world, welcome to the universe.";
+console.log(text.indexOf("e", 6)); // 14
+
 // length - mostra o comprimento de uma string
 let string05 = "Mulher Maravilha";
 console.log(string05.length); // 16
 
-// match
+// match - retorna uma correspondência entre uma string com uma expressão regular.
+console.log(string05.match(/[a-z]/g));
 
-// replace - retorna uma nova string
+// replace - retorna uma nova string, é possivel tb usar regex
 let string06 = "Front-end is the best!";
 console.log(string06.replace("best", "loko")); // Front-end is the loko
 
 // search
+
+/* splice -  extrai uma parte de uma string e a retorna como uma nova string, 
+sem modificar a string original. 
+*/
+let myPlay = "pubg";
+console.log(myPlay.slice(0, 3));
 
 // split - método divide uma string
 let string07 = "World,is,big!";
