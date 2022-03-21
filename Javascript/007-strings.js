@@ -30,7 +30,7 @@ console.log(string06.replace("best", "loko")); // Front-end is the loko
 
 // search
 
-/* splice -  extrai uma parte de uma string e a retorna como uma nova string, 
+/* slice -  extrai uma parte de uma string e a retorna como uma nova string, 
 sem modificar a string original. 
 */
 let myPlay = "pubg";
