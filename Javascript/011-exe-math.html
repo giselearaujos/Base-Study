@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise Object Math</title>
+</head>
+<body>
+  <script>
+    const number = Number(prompt('Enter a number:'));
+    document.body.innerHTML = `<h2>The number entered was: ${number} </h2>`;
+    document.body.innerHTML += `<p>Square root: ${Math.sqrt(number.toFixed(2))}</p>`;
+    document.body.innerHTML += `<p>Is the number ${number} an integer? ${Number.isInteger(number)} </p>`;
+    document.body.innerHTML += `<p>It's NaN: ${Number.isNaN(number)} </p>`;
+    document.body.innerHTML += `<p>Rounding the number down: ${Math.floor(number)}</p>`;
+    document.body.innerHTML += `<p>Rounding the number up: ${Math.ceil(number)}</p>`;
+    document.body.innerHTML += `<p>Number with two decimal places: ${Number(number.toFixed(2))} <p/>`;    
+  </script>  
+</body>
+</html>
