@@ -6,3 +6,8 @@ function nomeDaFuncao(parametros) {
   return "valor";
 }
 console.log(nomeDaFuncao());
+
+function welcome(yourName) {
+  console.log(`Welcome ${yourName}!`);
+}
+welcome("Jaqueline");
