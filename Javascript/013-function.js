@@ -11,3 +11,4 @@ function welcome(yourName) {
   console.log(`Welcome ${yourName}!`);
 }
 welcome("Jaqueline");
+welcome("Vitoria");
