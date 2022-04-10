@@ -9,19 +9,38 @@ function myScope() {
     event.preventDefault();
 
     const name = form.querySelector("#name");
-    const lastName = form.querySelector("#lastName").value;
-    const weight = form.querySelector("#weight").value;
-    const height = form.querySelector("#height").value;
+    const lastName = form.querySelector("#lastName");
+    const weight = form.querySelector("#weight");
+    const height = form.querySelector("#height");
 
-    // people.push({
-    //   name: name,
-    //   lastName: lastName,
-    //   weight: weight,
-    //   height: height,
-    // });
-    console.log(name.value);
+    people.push({
+      name: name.value,
+      lastName: lastName.value,
+      weight: weight.value,
+      height: height.value,
+    });
+    console.log(people);
 
-    // result.innerHTML += `<h3>${name.value}</h3>`;
+    result.innerHTML += `
+      <table class="table">
+        <thead>
+          <tr class="head-table">
+            <th>Name</th>
+            <th>Last Name</th>
+            <th>Weight</th>
+            <th>Height</th>
+          </tr>        
+        </thead>
+        <tbody>
+          <tr class="body-table">
+            <td>${name.value}</td>
+            <td>${lastName.value}</td>
+            <td>${weight.value}</td>
+            <td>${height.value}</td>
+          </tr>
+        </tbody>
+      </table>    
+    `;
   }
 
   form.addEventListener("submit", sendForm);

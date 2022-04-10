@@ -64,3 +64,26 @@
   margin: 15px;
   cursor: pointer;
 }
+
+.resultForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.table {
+  width: 50%;
+  background-color: #fff;
+  margin: 20px;
+}
+
+.head-table {
+  font-size: 21px;  
+}
+
+.body-table {
+  font-size: 18px;
+  text-align: center;
+}
