@@ -5,6 +5,12 @@
   [] bind e this no svelt
   [] conceito de bubbling
 
+  [] iframe
+  [] postMessage
+  [] VOD
+  [] CTA
+  
+
 
 
 */
