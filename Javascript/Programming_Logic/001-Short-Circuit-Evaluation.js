@@ -13,3 +13,9 @@
 */
 
 // Para saber se algo é true ou false é possível testar com => !!
+
+/* 
+  Todos os outros valores, incluindo todos os objetos,
+  são avaliados como verdadeiros quando passados 
+  para uma declaração condicional.
+*/
