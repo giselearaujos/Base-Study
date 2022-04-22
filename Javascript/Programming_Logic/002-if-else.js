@@ -11,8 +11,3 @@ if (condicao) {
 } else {
   // declaracao 2, executada quando a condição for false
 }
-
-// Exemplo
-// Exemplo 2
-// exemplo 3
-// exemplo 4
