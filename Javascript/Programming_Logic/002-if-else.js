@@ -11,3 +11,5 @@ if (condicao) {
 } else {
   // declaracao 2, executada quando a condição for false
 }
+
+// cont...
