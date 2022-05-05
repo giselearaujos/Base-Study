@@ -31,4 +31,3 @@ if (note >= 7) {
   console.log(`Disapproved!`);
 }
 console.log("--------------------");
-console.log("--------------------");
