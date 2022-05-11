@@ -18,11 +18,9 @@ if (age >= 18) {
 } else {
   console.log(`Your age is ${age} years. You can´t get a driver's license.`);
 }
-
 console.log("-----------------------");
 
 const note = 2;
-
 if (note >= 7) {
   console.log(`Okay!`);
 } else if (note >= 5) {
