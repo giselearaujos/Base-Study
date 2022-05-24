@@ -46,6 +46,7 @@ td {
 
 .input {
   width: 173px;
+  padding-left: 5px;
 }
 
 .btn {
